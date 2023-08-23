@@ -18,10 +18,14 @@ body {
   max-width: 100%;
 }
 header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  color: white;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgba(6, 45, 87, 0.368);
+  background-color: rgb(0, 0, 0);
   padding: 0 10px;
 }
 header .logo img {
@@ -34,15 +38,15 @@ header nav ul {
   list-style: none;
 }
 header nav ul li {
-    display: inline-block;
-    font-weight: bold;
+  display: inline-block;
+  font-weight: bold;
 }
 header nav ul li:not(:first-child) {
-    margin-left: 8px;
+  margin-left: 8px;
 }
 header .sing-btns a {
   text-decoration: none;
-  color: black;
+  color: white;
   border: 1px solid #eee;
   padding: 8px 10px;
 }
@@ -114,7 +118,7 @@ header .sing-btns a {
     height: 100px;
     margin-bottom: 8px;
   }
-  .main .cards-container{
+  .main .cards-container {
     flex-grow: 0;
     max-width: 100%;
   }
